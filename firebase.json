@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "public",
+    "target": "daring-augury-396116",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
